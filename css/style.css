@@ -10,7 +10,6 @@ nav {
     /* border: 1px solid red; */
     padding: 25px;
     background-color: rgb(0, 183, 229);
-    /* position: fixed; */
     
 }
 
@@ -24,7 +23,6 @@ nav {
 .menu {
     display: flex;
     list-style: none;
-    /* position: fixed; */
 }
 
 .menu li {
@@ -38,10 +36,10 @@ nav {
 }
 
 .banner {
-    background-image: url(/image/tst2.jpg);
+    background-image: url(../image/tst2.jpg);
     background-size:cover;
     color: #fff;
-    height: 560px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,35 +66,44 @@ nav {
     font-weight: bold;
     color: #fff;
 }
+.bannerlow{
+    background-color: rgb(0, 183, 229);
+    height: 70px;
+}
+
 
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
 } 
 
-.mypic{
-    justify-content: right;
+.box {
+    margin-left: 300px ; 
+    width: min-content;
+    height: min-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    box-shadow: 10px 5px 5px #333;
+    border: 1px solid #333;
+}
+.myimg{
     text-align: right;
-    /* margin-right: 10px; */
-    border: solid #333;
-    height: fit-content;
-    width: fit-content;
-    
-    
+}
+.myimg img{
+    width: 250px;
 }
 
 .About{
-    justify-content: left;
-    text-align: left;
-    margin-left: 0px;
-    margin-top: 45px;
-    font-size: 20px;
+    padding-top: 130px ;
+    padding-left: 10px;
+    
 }
-
-main div{ 
+main div{
     padding: 40px;
-    border: solid #333; 
-    background-color: #fff;
+    /* border: solid #333;   */
+    background-color:#fff;
     justify-content: center;
     text-align: center;
 }
@@ -105,10 +112,6 @@ main div h2{
     text-align: left;
 }
 
-main div img{ 
-    width: 260px;
-    border-radius: 10px;
-}
 
 main div p{
     margin-top: 10px;
@@ -117,44 +120,81 @@ main div p{
     line-height: 30px;
 }
 
-main div video{
-    width: 50%;
-    border-radius: 10px;
-    box-shadow: 0 0 20px #333;
-} 
-
-main div ul{
-    line-height: 30px;
-    text-align: center;
-    list-style: none;
+.talk{
+    padding-top: 170px;
+    padding-right: 0px;
+    /* border: solid #333; */
 }
 
-.contact img{
-    margin-top: 20px;
-    width: 60px;
-    
+.talk h2{
+    justify-items: right;
+    text-align: right;
 }
 
-.contact{
-    /* background-image: url(/image/tree2.jpg); */
-    /* background-size: cover; */
+.talk p{
+    text-align: right;
+}
+.realvdo video{
+    width: 200px;
+    padding-left: 0px;
 }
 
-.About{
-    /* background-image: url(/image/000.jpg); */
-    /* background-size: cover; */
-    
+.box2 {
+    /* margin-left: 300px ; */
+    width: min-content;
+    height: min-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    box-shadow: 10px 5px 5px #333;
+    border: 1px solid #333;
 }
-
-.vddd{
-    /* background-image: url(/image/nature\ \(2\).jpg); */
-    /* background-size: cover; */
-    
+.realvdo{
+    padding-left: 100px;
+    text-align: start;
 }
 footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    text-align: left;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: solid #fff; */
+    
+}
+
+.logog{
     text-align: center;
 }
 
+.logog img{
+    width: 50px;
+}
+
+.fb{
+    display: flex;
+    padding-right: 230px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb ul{
+    list-style: none;
+    padding-left: 50px;
+    
+}
+
+.bra {
+    padding-right: 230px;
+}

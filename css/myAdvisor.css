@@ -79,6 +79,16 @@ main{
 
 }
 
+.decribe {
+    display: inline;
+    padding-top: 200px;
+}
+
+.decribe h3{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+}
 
 
 

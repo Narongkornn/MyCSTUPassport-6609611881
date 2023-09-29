@@ -34,3 +34,95 @@ nav {
     color: #fff;
     font-size: 20px;
 }
+
+.act {
+    background-color: rgb(95, 223 , 255);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.act h2{
+    color: #333;
+    font-weight: bolder;
+}
+
+.type{
+    background-color: rgb(72, 141, 158);
+    height: 50px;
+    
+    
+}
+.ttt {
+    padding-top: 15px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 42px;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: solid #fff; */
+    
+}
+
+.logog{
+    text-align: center;
+}
+
+.logog img{
+    width: 50px;
+}
+
+.fb{
+    display: flex;
+    padding-right: 230px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb ul{
+    list-style: none;
+    padding-left: 50px;
+    
+}
+
+.bra {
+    padding-right: 230px;
+}

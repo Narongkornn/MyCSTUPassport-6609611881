@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 25px;
+    background-color: rgb(0, 183, 229);
+    /* position: fixed; */
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    /* position: fixed; */
+}
+
+.menu li {
+    margin-left: 40px;
+}
+
+.menu li a {
+    text-decoration: none; 
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner {
+    background-image: url(/image/tst2.jpg);
+    background-size:cover;
+    color: #fff;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerinfo {
+    text-align: center;
+}
+
+.bannerinfo h1 {
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+}
+/* .bannerinfo {
+    border: 1px solid red;
+} */
+
+.bannerinfo p{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} 
+
+.mypic{
+    justify-content: right;
+    text-align: right;
+    /* margin-right: 10px; */
+    border: solid #333;
+    height: fit-content;
+    width: fit-content;
+    
+    
+}
+
+.About{
+    justify-content: left;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+main div{ 
+    padding: 40px;
+    border: solid #333; 
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+main div h2{
+    text-align: left;
+}
+
+main div img{ 
+    width: 260px;
+    border-radius: 10px;
+}
+
+main div p{
+    margin-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+    line-height: 30px;
+}
+
+main div video{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #333;
+} 
+
+main div ul{
+    line-height: 30px;
+    text-align: center;
+    list-style: none;
+}
+
+.contact img{
+    margin-top: 20px;
+    width: 60px;
+    
+}
+
+.contact{
+    /* background-image: url(/image/tree2.jpg); */
+    /* background-size: cover; */
+}
+
+.About{
+    /* background-image: url(/image/000.jpg); */
+    /* background-size: cover; */
+    
+}
+
+.vddd{
+    /* background-image: url(/image/nature\ \(2\).jpg); */
+    /* background-size: cover; */
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
